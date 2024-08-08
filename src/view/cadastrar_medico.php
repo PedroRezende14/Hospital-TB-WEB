@@ -34,7 +34,7 @@
 
     <div class="container mt-5">
         <h2 class="text-center">Cadastro de Médico</h2>
-        <form id="cadastroForm" action="processa_cadastro.php" method="post" onsubmit="return validarFormulario()">
+        <form id="cadastroForm" action="../controller/processa_cadastro.php" method="post" onsubmit="return validarFormulario()">
             <div class="form-group">
                 <label for="nome">Nome</label>
                 <input type="text" class="form-control" id="nome" name="nome" required>
