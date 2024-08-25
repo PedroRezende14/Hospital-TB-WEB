@@ -1,4 +1,4 @@
-# CRUD-PHP
+# Hospital-TB-WEB
 
 ## Pré-requisitos
 
@@ -11,7 +11,7 @@
 
 1. Clone este repositório:
 ```sh
-git clone <https://github.com/PedroRezende14/crud-php.git>
+git clone <https://github.com/PedroRezende14/Hospital-TB-WEB.git>
 ```
 2. Execute o seguinte comando no terminal:
 ```sh
