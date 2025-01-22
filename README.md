@@ -15,7 +15,7 @@ git clone <https://github.com/PedroRezende14/Hospital-TB-WEB.git>
 ```
 2. Execute o seguinte comando no terminal:
 ```sh
-docker-compose up --build -d
+docker compose up --build -d
 ```
  3. Abra o navegador e digite:
 ```sh
