@@ -22,4 +22,3 @@ services:
     depends_on:
       db:
         condition: service_healthy
-    entrypoint: sh -c "php /var/www/html/migration.php && apache2-foreground"
