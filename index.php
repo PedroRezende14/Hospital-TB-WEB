@@ -36,7 +36,6 @@
     </style>
 </head>
 <body>
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Atendimento Médico</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,27 +47,29 @@
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="app/views/Cadastro.php">Cadastro de Paciente</a>
+                    <a class="nav-link" href="app/views/Cadastro.php">Cadastrar um Paciente</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="app/views/CadastroMedico.php">Cadastro de Paciente</a>
+                    <a class="nav-link" href="app/views/PesquisarPessoa.php">Lista pacientes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="app/views/PesquisarContatos.php">Lista Contatos</a>
+                    <a class="nav-link" href="app/views/PesquisarContatos.php">Lista contatos do paciente</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="app/views/PesquisarPessoa.php">Lista paciente</a>
+                    <a class="nav-link" href="app/views/CadastroMedico.php">Cadastrar um medico</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="app/views/listaMedicos.php">Lista de Medicos</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <!-- Cabeçalho -->
+
     <header class="bg-primary text-white text-center py-3 espaco">
         <h1>Bem-vindo ao Sistema de Atendimento Médico</h1>
     </header>
 
-    <!-- Carrossel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
